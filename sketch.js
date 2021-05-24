@@ -22,13 +22,13 @@ function setup() {
   stand2 = new Stand(700,200,200,10);
  
   //level one
-  block1 = new Block(300,275,30,40);
-  block2 = new Block(330,275,30,40);
-  block3 = new Block(360,275,30,40);
-  block4 = new Block(390,275,30,40);
-  block5 = new Block(420,275,30,40);
-  block6 = new Block(450,275,30,40);
-  block7 = new Block(480,275,30,40);
+  block1 = new Block(300,270,30,40);
+  block2 = new Block(330,270,30,40);
+  block3 = new Block(360,270,30,40);
+  block4 = new Block(390,270,30,40);
+  block5 = new Block(420,270,30,40);
+  block6 = new Block(450,270,30,40);
+  block7 = new Block(480,270,30,40);
   //level two
   block8 = new Block(330,235,30,40);
   block9 = new Block(360,235,30,40);
@@ -64,7 +64,7 @@ function setup() {
 
 }
 function draw() {
-  background(56,44,44); 
+  background("white"); 
  
   //Engine.update(engine);
   
